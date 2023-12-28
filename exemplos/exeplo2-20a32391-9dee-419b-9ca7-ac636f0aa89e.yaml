@@ -1,0 +1,21 @@
+- defaultTab: nodes
+  description: oi
+  executionEnabled: true
+  group: exemplos
+  id: 20a32391-9dee-419b-9ca7-ac636f0aa89e
+  loglevel: INFO
+  name: exeplo2
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - configuration:
+        adhocRemoteString: oi
+      nodeStep: true
+      type: exec-command
+    keepgoing: false
+    strategy: node-first
+  uuid: 20a32391-9dee-419b-9ca7-ac636f0aa89e
+
