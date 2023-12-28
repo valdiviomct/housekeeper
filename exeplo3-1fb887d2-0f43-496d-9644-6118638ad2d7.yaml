@@ -1,0 +1,20 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 1fb887d2-0f43-496d-9644-6118638ad2d7
+  loglevel: INFO
+  name: exeplo3
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - configuration:
+        adhocRemoteString: vai
+      nodeStep: true
+      type: exec-command
+    keepgoing: false
+    strategy: node-first
+  uuid: 1fb887d2-0f43-496d-9644-6118638ad2d7
+
